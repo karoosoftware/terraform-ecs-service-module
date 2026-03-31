@@ -104,7 +104,6 @@ variable "enable_execute_command" {
   default     = false
 }
 
-
 variable "propagate_tags" {
   description = "Whether to propagate tags from the service or task definition."
   type        = string
